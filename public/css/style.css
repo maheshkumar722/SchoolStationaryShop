@@ -1,0 +1,537 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Sriracha', cursive;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        p {
+            font-size: 0.9rem;
+            margin: 20px 0 15px 0;
+            font-weight: bold;
+            line-height: 1.1;
+            word-spacing: 4px;
+        }
+        
+        i {
+            color: #2fccd0;
+        }
+        /***********************Main Css classes design Start**************/
+        
+        .header {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(70deg, rgba(0, 155, 215, 0.3), rgba(0, 155, 215, 0.3)), url('../images/fornt.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: relative;
+        }
+        
+        .header:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4%;
+            z-index: .5;
+            background: linear-gradient(to right, #1e5799 0%, #3ccdbd 0%, #16c9f6 100%);
+        }
+        
+        /*.navbar:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4%;
+            z-index: .5;
+            background: linear-gradient(to right, #1e5799 0%, #3ccdbd 0%, #16c9f6 100%);
+        }*/
+        .menu{
+            position: absolute;
+            position: fixed;
+            height: 60px ;
+            width: 100% ;
+            background-color:#1e5799;
+        }
+        
+        .fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        
+       
+        
+        .header-section {
+            width: 100%;
+            height: 100%;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        
+
+
+
+
+
+
+         .nav-item a {
+            color: #fff!important;
+            font-weight: bold;
+        }
+        .center-div {
+            width: 100% height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+        
+        .header-buttons a {
+            border: 1px solid #fff;
+            border-radius: 100px;
+            margin: 0 5px;
+            padding: 6px 17px;
+            outline: none;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 3;
+            text-align: center;
+        }
+        
+        .header-buttons a:hover {
+            color: #50d1c0;
+            background: #fff;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0);
+        }
+        /*******************Extra header css div starts*****************/
+        
+        .header-extradiv {
+            width: 100%;
+            height: auto;
+            margin: 100px 0;
+            text-align: center;
+        }
+        
+        .extra-div {
+            background-color: white;
+            border: medium none;
+            padding: 50px: important;
+            border-radius: 3px;
+            transition: 0.3s;
+        }
+        
+        .extra-div:hover {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transform: translateY(-20px);
+        }
+        /*******************Extra header css div ends*****************/
+        /******************* Serives CSS starts ********************/
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .card {
+            width: 100%;
+            background-color: #50d1c0;
+            transition: 0.4s ease;
+            transform: translateY(-20px);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            z-index: 5px;
+            min-height: 450px;
+            margin-bottom: 25px;
+        }
+        
+        .card-body {
+            padding: 30px 0px!important;
+        }
+        
+        .card-body image {
+            margin: 10px 0;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #606060;
+        }
+        
+        .title {
+            text-align: center;
+        }
+        
+        .description {
+            text-align: center;
+        }
+        
+        .image img {
+            width: 100%;
+        }
+        
+        button {
+            border: 1px solid #50d1c0;
+            border-radius: 20px;
+            margin: 10px 5px;
+            padding: 6px 7px;
+            outline: none;
+            color: black;
+            font-size: 0.8rem;
+            font-weight: 600;
+            line-height: 2;
+            text-align: center;
+        }
+        
+        button:hover {
+            color: #50d1c0;
+            background: black;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0);
+        }
+            /******************* Serives CSS end ********************/
+            /******************* Product sample starts ********************/
+        
+        
+        .Product {
+            background: #f7f7f9;
+            padding: 50px 0;
+            margin-bottom: 50px;
+        }
+        
+        .headings {
+            margin-bottom: 50px;
+        }
+        
+        .img {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            height: 200px!important;
+            padding: 0px 100px;
+        }
+        
+        .img h1 {
+            text-align: center;
+        }
+        
+        .box {
+            text-align: center;
+            border: 2px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+            border-radius: 2px;
+            transition: 0.3s ease;
+            min-height: 450px;
+            margin-bottom: 25px;
+        }
+        
+        .box:hover {
+            background: white;
+        }
+        
+        .box:hover p {
+            color: blue;
+        }
+        
+        .box a {
+            position: relative;
+        }
+        
+        .box h1 {
+            font-size: 18px;
+            font-weight: : 700;
+            color: #000;
+            margin-bottom: 10px
+        }
+        
+        .box {
+            width: 100%;
+            background-color: #50d1c0;
+            transition: 0.4s ease;
+            transform: translateY(-20px);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            z-index: 5px;
+        }
+        /******************* Product sample end ********************/
+
+
+
+        /******************* Oder Now Start **********************/
+        body{
+            background-size:cover;
+            background-image:url('../images/order.jpg');
+            background-repeat: no-repeat;
+
+        }
+
+        .h1{
+            text-align: center;
+            padding: 20px;
+        }
+        .h2{
+            text-align: center;
+            padding: 20px;
+        }
+        .order{
+             
+            background-color: rgb(60,60,60,0.5);
+            width: 500px; 
+            margin: 0px 0px 0px 430px;
+            color: white;
+            font-size: 18px;
+            padding-left: 30px;
+            border-radius: 10px;
+            opacity: 0.5px;
+            z-index: 0.6px;
+        }
+        label{
+            color: white;
+            font-family: sans-serif;
+            font-size: 18px;
+            font-style: italic;
+        }
+        #name{
+            width: 300px;
+            border: none;
+            border-radius: 3px;
+            outline: 0;
+            padding: 7px;
+        }
+       .button{
+        margin-right: 50px;
+        color: blue;
+       }
+       /**************************** Order Now ends****************/
+    
+      
+
+
+
+
+
+
+        /**************** Contact Us start**********************/
+        
+        .Contactus {
+            width: 100%;
+            height: 100vh;
+            padding: 80px 0px;
+            position: relative;
+        }
+        
+        .Contactus:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(to right, #1e5799 0%, #3ccdbd 0%, #16c9f6 100%);
+            z-index: -1;
+        }
+        
+        .form-button button {
+            border: 1px solid white;
+            border-radius: 100px;
+            margin: 0 5px;
+            padding: 6px 17px;
+            outline: none;
+            color: blue;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.4;
+            text-align: center;
+            background: transparent;
+        }
+        
+        .form:hover .form-button button {
+            background: #fff;
+            color: #50d1c0;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3)
+        }
+        
+         ::placeholder {
+            font-size: 0.85rem;
+        }
+        /**************** Contact Us  ends**********************/
+        /**************** News Letter  Start**********************/
+        
+        .Newsletter {
+            margin-top: 100px;
+            width: 100%;
+            height: auto;
+            margin: 80px auto;
+        }
+        
+        .News-input {
+            border-radius: 100px 0px 0px 100px!important;
+            min-width: 150px;
+            min-height: 45px;
+        }
+        
+        .input-group-text {
+            color: #fff!important;
+            background: #5bc0de!important;
+            border-radius: 0px 100px 100px 0px!important;
+            min-width: 120px;
+        }
+        /**************** News Letter Ends**********************/
+        /****************Footer Starts**********************/
+        
+        .footersection {
+            width: 100%;
+            height: auto;
+            padding: 70px 0px 20px 0px;
+            background-color: #1e5799;
+            position: relative;
+        }
+        
+        .footersection p {
+            color: #fff;
+        }
+        
+        .footersection li a {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        
+        .footersection h3 {
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 1.2rem!important;
+            font-weight: 600;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+        }
+
+        .list-inline-item a i{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50px;
+    line-height: 50px;
+    size: 70px;
+}
+
+.fa-facebook-f{
+    background-color: #1164AC;
+}
+
+.fa-twitter{
+    background-color: #55ACEE;
+}
+
+.fa-google-plus-g{
+    background-color: #DD4B39;
+}
+
+.fa-linkedin-in{
+    background-color: #0082CA;
+}
+
+.fa-instagram{
+    background-color: #B631A1;
+}
+
+.fa-facebook-f:hover,.fa-twitter:hover,.fa-google-plus-g:hover,.fa-linkedin-in:hover,.fa-instagram:hover{
+    opacity: 0.5;
+}
+        
+        .copy {
+            text-align: center;
+        }
+        /**************** Footer  Ends**********************/
+        
+
+
+        /******************* Sign Up starts ****************/
+
+body{ 
+    background-image: linear-gradient url('../images/signup.jpg');
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    padding: 20px;    
+} 
+.register
+{
+    
+        background-color: rgb(60,60,60,0.5);
+        width: 500px;
+        margin: 0px 0px 0px 450px;
+        color: white;
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 10px;
+}
+#register{
+    margin-left: 100px;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0px;
+    padding: 7px;
+}
+#ph{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#num{
+    width: 230px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#sub{
+    width: 200px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
